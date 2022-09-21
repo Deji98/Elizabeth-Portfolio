@@ -7,52 +7,46 @@
     <title>Elizabeth's Portfolio</title>
     <link rel="stylesheet" href="/assets/css/tailwind.css" />
   </head>
-  <body class="bg-[#b894e3]">
+  <body class="bg-[#F1DBEF]">
     <!-- header -->
+    <div class="">
     <header>
-      <div class="flex justify-between items-center m-6">
-        <div class="font-sans font-bold text-2xl text-black">
+      <div class="flex justify-between items-center m-2 md:m-10 ml-1 md:ml-5 text-[#503cca]">
+        <div class="font-sans font-bold text-2xl">
           <a href="#"><h3>Bella</h3></a>
         </div>
-        <div class="hidden md:block" id="menu">
-          <ul class="flex">
-            <li class="mr-6">
+        <div class="hidden md:block mr-6" id="menu">
+          <ul class="md:flex gap-5">
+            <li class="">
               <a class="" href="#abtme">About Me</a>
             </li>
-            <li class="mr-6">
+            <li class="">
               <a class="" href="#">Skills</a>
             </li>
-            <li class="mr-6">
+            <li class="">
               <a class="" href="#projects">Projects</a>
             </li>
-            <li class="mr-6">
+            <li class="">
               <a class="" href="#icons">Contact</a>
             </li>
           </ul>
         </div>
         <div class="md:hidden" id="burger">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-6 h-6"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-            />
-          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg"
+          enable-background="new 0 0 512 512" 
+           viewBox="0 0 512 512"
+           stroke="currentColor"
+           class="w-6 h-6">
+           <path 
+           d="M485.883 425.832H26.781c-4.971 0-9-4.029-9-9s4.029-9 9-9h459.102c4.971 0 9 4.029 9 9S490.854 425.832 485.883 425.832zM485.883 264.742H26.781c-4.971 0-9-4.029-9-9s4.029-9 9-9h459.102c4.971 0 9 4.029 9 9S490.854 264.742 485.883 264.742zM485.883 103.653H26.781c-4.971 0-9-4.029-9-9s4.029-9 9-9h459.102c4.971 0 9 4.029 9 9S490.854 103.653 485.883 103.653z"/></svg>
         </div>
       </div>
     </header>
     <!-- body -->
     <main>
-      <div class="flex justify-between m-6 pt-8">
-        <div id="abtme" class="md:w-2/4">
-          <p class="text-sm pb-6 text-[#9143DF]">Welcome to my sites</p>
+      <div class="flex justify-between items-center m-10 ml-4 pt-8">
+        <div id="abtme" class="md:2/4">
+          <p class="text-lg pb-6 text-[#9143DF]">Welcome to my sites</p>
           <div class="">
             <h1 class="font-bold text-2xl text-[#5219AF]">Hi! I'm Elizabeth</h1>
             <h1 class="font-bold text-2xl text-[#5219AF]"
@@ -64,45 +58,46 @@
           </div>
           <div>
             <p class="pt-10"
-              >I am Elizabeth Osuwa , a UI/UX Designer , available for
-              collaborations. UX design is crucial to just about everything. It
-              renders the latest technology and makes our favourite apps and
-              websites a pleasure to use, Let’s start your design with an even
-              better story.</p
+              >I am Elizabeth Osuwa, a UI/UX Designer, available for collaborations and hire. <br> I’m quite proficient with the use of figma, figjam.</p
             >
-            <div class="flex gap-6 pt-10">
-              <a href="#hireform">
-                <button
-                  class="px-8 py-2 rounded-lg bg-[#9247F1] text-white capitalize hover:bg-gray-300 hover:text-violet-700 active:bg-violet-700 focus:outlinne-none focus:ring focus:ring-violet-300"
-                  >Hire me</button
-                ></a
-              >
-              <a href="#projects">
-                <button
-                  class="bg-blue-200 px-8 py-2 border border-[#9247F1] rounded-lg bg-transparent text-[#9247F1] hover:text-gray-600 hover:bg-white capitalize active:bg-violet-700 focus:outlinne-none focus:ring focus:ring-violet-300"
-                >
-                  see my projects</button
-                ></a
-              >
-            </div>
           </div>
         </div>
-        <div class="mt-32 ml-6 md:ml-0 md:mt-0">
-          <div class="">
+        <div class="ml-1 mt-10 pl-10">
+          <div class=" hidden md:block">
             <p
-              class="bg-[#e4c0e1] p-8 pr-16 pb-20 ml-2 md:p-32 md:pr-36 md:ml-5 text-white absolute"
+              class="bg-[#e4c0e1] mt-5 ml-10 h-80 w-72 rounded-lg absolute"
             ></p>
           </div>
-          <div class="md:w-2/3">
+          <div class="hidden md:block w-80 pt-6">
             <img
-              class="relative -ml-3 pt-3"
+            width="500px"
+              class="relative -ml-2 pt-3"
               src="/images/Rectangle 7.png"
               alt="eli-img"
             />
           </div>
         </div>
-        <!-- social media icons -->
+        </div>
+        <!-- button -->
+        <div class="flex gap-6 ml-10">
+          <a href="#hireform">
+            <button
+              class="px-8 py-2 rounded-lg bg-[#a565f1] text-white capitalize hover:bg-[#945ad8] focus:outlinne-none focus:ring"
+              >Hire me</button
+            ></a
+          >
+          <a href="#projects">
+            <button
+              class="bg-blue-200 px-8 py-2 border border-[#9247F1] rounded-lg bg-transparent text-[#9247F1] hover:text-white hover:bg-[#d799d2] capitalize focus:outlinne-none focus:ring"
+            >
+              see my projects</button
+            ></a
+          >
+        </div>
       </div>
+      
+
+      <!-- social media icons -->
       <div id="icons" class="flex justify-center items-center gap-5 pt-12">
         <a href="https://www.facebook.com/elizabeth.osuwa" target="_blank"
           ><img src="/images/icons8-facebook.svg" alt="fb"
@@ -117,57 +112,68 @@
         /></a>
         <a href="#"><img src="/images/icons8-instagram.svg" alt="insta" /></a>
       </div>
-
-      <div>
-        <div class="pt-12">
-          <h3 id="projects" class="text-[#5219AF] text-center font-bold"
-            >Projects</h3
+    </div>
+    <!-- body -->
+      <div class="bg-[#544567] pr-4 text-white">
+       <div class="pt-2 mt-10">
+        <h3 id="projects" class="text-center font-bold"
+          >Projects</h3>  
+        <p class="text-center pt-3"
+          >Here are some of the works done in the past few months. <br> Check them
+          out
+        </p>
+      </div>
+      <div class="md:flex justify-center items-center mt-10">
+        <div class=" ml-4 justify-center items-center">
+          <div class="pb-10">
+            <img 
+            width="350px"
+            src="/images/Rectangle 8 (1).png" alt="pro1" />
+            <p class="pt-3"
+              >Food App Design | UX/UI ( Wireframe, Prototype, Export),
+              Mockups.
+            </p>
+          </div>
+          <div class="pb-10"
+            ><img 
+            width="350px"
+            src="/images/Rectangle 13.png" alt="pro1" />
+            <p class="pt-3">
+              UI Design Draw - NFT Landing Page With Figma</p
+            ></div
           >
-          <p class="text-center pt-3"
-            >Here are some of the works done in the past few months. Check them
-            out
-          </p>
-        </div>
-        <div class="md:flex mt-10">
-          <div class="w-full ml-16 justify-center">
-            <div class="pb-10">
-              <img src="/images/Rectangle 8 (1).png" alt="pro1" />
-              <p class="text-[#5219AF] pt-3"
-                >Food App Design | UX/UI ( Wireframe, Prototype, Export),
-                Mockups.
-              </p>
-            </div>
-            <div class="pb-10 pr-5"
-              ><img src="/images/Rectangle 13.png" alt="pro1" />
-              <p class="text-[#5219AF] pt-3">
-                UI Design Draw - NFT Landing Page With Figma</p
-              ></div
-            >
 
-            <div class="pb-10"
-              ><img src="/images/Rectangle 11.png" alt="pro1" />
-              <p class="text-[#5219AF] pt-3"
-                >Landing Page Design for a freelancer’s portfolo. .</p
-              ></div
-            >
-          </div>
-          <div class="ml-16 md:pr-10">
-            <div class="pb-10">
-              <img src="/images/Rectangle 12.png" alt="pro1" />
-              <p class="text-[#5219AF] pt-3"
-                >Food App Design | UX/UI ( Wireframe, Prototype, Export),
-                Mockups.
-              </p></div
-            >
-            <div class="pb-10">
-              <img src="/images/Rectangle 10.png" alt="pro1" />
-              <p class="text-[#5219AF] pt-3">Landing Page Design .</p></div
-            >
-          </div>
+          <div class="pb-10"
+            ><img 
+            width="350px"
+            src="/images/Rectangle 11.png" alt="pro1" />
+            <p class="pt-3"
+              >Landing Page Design for a freelancer’s portfolo. .</p
+            ></div
+          >
+        </div>
+        <div class="ml-4 md:pr-10">
+          <div class="pb-10">
+            <img 
+            width="350px"
+            src="/images/Rectangle 12.png" alt="pro1" />
+            <p class="pt-3"
+              >Food App Design | UX/UI ( Wireframe, Prototype, Export),
+              Mockups.
+            </p></div
+          >
+          <div class="pb-10">
+            <img
+            width="350px"
+            src="/images/Rectangle 10.png" alt="pro1" />
+            <p class="pt-3">Landing Page Design .</p></div
+          >
         </div>
       </div>
+      </div>
     </main>
-    <footer>
+    <!-- footer -->
+    <footer class="pt-10 pl-2 bg-[#E8E7EA] w-full">
       <div>
         <p class="text-center text-[#5219AF] pb-2"
           >Got a project in mind?. Drop me a line.
@@ -176,53 +182,101 @@
           >Let’s make something awesome together</p
         >
       </div>
+     
       <div>
-        <form id="hireform" action="#">
-          <div class="flex gap-5 justify-center pb-5">
+      <!-- mobile -->
+        <form class="text-center" id="hireform" action="#">
+
+          <div class="pb-5 md:hidden">
             <input
-              class="border text-[#5219AF] border-[#5219AF] rounded-lg bg-transparent placeholder-[#5219AF] pl-7 pr-20 py-1"
+              class="border w-80 text-[#5219AF] border-[#5219AF] rounded-lg bg-transparent placeholder-[#5219AF] py-1"
               type="text"
               placeholder="Enter Your Full Name"
-            />
+            /> <br>
             <input
-              class="border text-[#5219AF] border-[#5219AF] rounded-lg bg-transparent placeholder-[#5219AF] pl-7 pr-20 py-1"
+              class="border w-80 text-[#5219AF] border-[#5219AF] rounded-lg bg-transparent placeholder-[#5219AF] mt-5 py-1"
               type="email"
-              placeholder="Enter Your Email Address"
+              placeholder="Email Address"
             />
           </div>
-          <div class="flex justify-center">
+     
+
+          
             <input
-              class="border text-[#5219AF] border-[#5219AF] rounded-lg bg-transparent placeholder-[#5219AF] pl-7 pr-96 py-1"
+              class="border w-80 md:hidden text-[#5219AF] border-[#5219AF] rounded-lg bg-transparent placeholder-[#5219AF] mb-5 py-1"
               type="text"
               placeholder="Choose a Timeframe"
-            />
-          </div>
-          <div class="flex justify-center mt-2">
+            /> <br>
             <input
-              class="border text-[#5219AF] border-[#5219AF] rounded-lg bg-transparent placeholder-[#5219AF] pl-7 pr-96 py-1"
+              class="border w-80 md:hidden text-[#5219AF] border-[#5219AF] rounded-lg bg-transparent placeholder-[#5219AF] py-1"
               type="text"
               placeholder="Choose a Budget"
             />
-          </div>
-          <div class="flex justify-center pt-3">
+          
+           
+          <div class="pt-3 md:hidden">
             <textarea
-              class="border pt-1 pl-1 text-[#5219AF] border-[#5219AF] rounded-lg bg-transparent placeholder-[#5219AF]"
+              class="border pt-1 text-[#5219AF] border-[#5219AF] rounded-lg bg-transparent placeholder-[#5219AF]"
               name="message"
               id="msg"
-              cols="70"
+              cols="40"
               rows="10"
               placeholder="How can I help you"
             ></textarea>
           </div>
-          <div class="flex justify-center pt-3 pb-3">
+          <div class="md:hidden flex-col  justify-start md:justify-center items-center pt-3 pb-3">
             <button
-              class="border border-transparent bg-[#5219AF] text-white rounded-lg bg-transparent pl-56 pr-56 text-center"
+              class="border border-transparent rounded-lg bg-[#a565f1] text-white capitalize hover:bg-[#945ad8] focus:outlinne-none focus:ring text-center px-24  py-2"
+              >Let's work together</button
+            >
+          </div>
+
+        </form>
+
+         <!-- tab and desktop -->
+        <form action="#" class="hidden md:block text-center">
+          <div class="pb-5  max-w-3/2">
+            <input
+              class="border w-48  text-[#5219AF] border-[#5219AF] rounded-lg bg-transparent placeholder-[#5219AF] py-1"
+              type="text"
+              placeholder="Enter Your Full Name"
+            /> 
+            <input
+              class="border w-48 text-[#5219AF] border-[#5219AF] rounded-lg bg-transparent placeholder-[#5219AF]  mt-5 py-1"
+              type="email"
+              placeholder="Email Address"
+            />
+          </div>
+         
+          <input
+          class="border w-96  text-[#5219AF] border-[#5219AF] rounded-lg bg-transparent placeholder-[#5219AF] mb-5 py-1"
+          type="text"
+          placeholder="Choose a Timeframe"
+        /> <br>
+        <input
+          class="border w-96 text-[#5219AF] border-[#5219AF] rounded-lg bg-transparent placeholder-[#5219AF] py-1"
+          type="text"
+          placeholder="Choose a Budget"
+        />
+          <div class="pt-3">
+            <textarea
+              class="border pt-1 text-[#5219AF] border-[#5219AF] rounded-lg bg-transparent placeholder-[#5219AF]"
+              name="message"
+              id="msg"
+              cols="46"
+              rows="10"
+              placeholder="How can I help you"
+            ></textarea>
+          </div>
+          <div class="hidden md:block flex-col  justify-start md:justify-center items-center pt-3 pb-3">
+            <button
+              class="border w-96 border-transparent rounded-lg bg-[#a565f1] text-white capitalize hover:bg-[#945ad8] focus:outlinne-none focus:ring text-center  py-2"
               >Let's work together</button
             >
           </div>
         </form>
       </div>
-      <div class="flex justify-center pt-10">
+      <div class="flex justify-center pb-10 pt-10">
         <p class="text-[#5219AF]">copyright&copy;2022 Elizabeth Osuwa</p>
       </div>
     </footer>
